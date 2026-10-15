@@ -1,5 +1,7 @@
 # Tollo
 
+### 👉 [**Open the live Tollo prototype**](https://luke-w-l-m.github.io/Tollo/)
+
 **No experience. Paid by the hour. No pressure.**
 
 > Tollo is a two-sided marketplace for hourly, no-experience physical work in the UK: removals help, event crew and warehouse moves, all in one place, with none of the CV checks or etiquette pressure of hospitality shift apps.
@@ -32,10 +34,14 @@ Plenty of people want an honest few hours of physical work, and plenty of househ
 
 ## Run it
 
-There's no build step. Open `index.html` in a browser, or serve the folder:
+**Live:** https://luke-w-l-m.github.io/Tollo/
+
+To run it locally there's no build step. Clone the repo and serve the project folder (run the server from *inside* `Tollo`, not your home directory):
 
 ```sh
-python3 -m http.server 8000
+git clone https://github.com/Luke-W-L-M/Tollo.git
+cd Tollo
+python3 -m http.server 8000 --bind 127.0.0.1
 # then visit http://localhost:8000
 ```
 
